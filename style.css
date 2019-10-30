@@ -1,0 +1,32 @@
+sally{
+text-align:center;
+}
+
+.headings {
+  font-size:20px;
+}
+
+header {
+  text-align:center;
+  font-weight:bold;
+}
+
+address {
+font-weight:bold;
+}
+
+.h4{
+  text-align:center;
+}
+
+#position {
+  font-style:italic;
+}
+
+.dates {
+  text-align:right;
+}
+
+.job{
+  font-weight:bold;
+}
