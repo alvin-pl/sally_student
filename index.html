@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sally Student Resume</title>
+</head>
+<body>
+    <div id="application-root"></div>
+    
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+
+    <script type="text/babel">
+      function App() {
+  return (
+    
+<main>Sally Student Resume
+<h1 class="headings">Education</h1>
+<main>NYU</main>
+<ul>
+    <li>Candidate for Computer Science</li>
+</ul>
+<h2 class="headings">Volunteer experience</h2>
+<p>Robin Hood Foundation</p>
+<p id="dates">March 2018- Present</p>
+<ul>
+    <li>Responsible for various tasks including preparing and serving food, assigning clothe, and preparing inhabitants for part or full-time jobs through an interview process
+    </li>
+</ul>
+<h3 class="headings">Work Experience</h3>
+<p class="job">Google</p>
+<p class="dates">Jan 2018 - Present</p>
+<p class="position">Software Engineer</p>
+
+<ul>
+      <li>Providing overall leadership to entire project</li>
+      <li>Managed large and complex projects</li>
+      <li>Communicated with internal/external clients</li>
+</ul>
+
+<p class="job">Amazon</p>
+<p class="dates">Sept 2017 - Dec 2018</p>
+<p class="position">Full Stack engineer</p>
+
+<ul>
+      <li>Re-engineered customer account software systems</li>
+      <li>Developed and implemented new feedback system</li>
+      <li>Deployed and tested remote installation services</li>
+</ul>
+
+<address>Skills & Interest</address>
+
+<ul>
+    <li>Knowledgeable in Microsoft Excel, PowerPoint, and Word</li>
+    <li>Hiking, basketball, Indoor Go-Kart racing</li> 
+</ul>
+
+<h4 class="h4">Contact information:</h4>
+
+<section class="h4">
+     <a href="mailto:sallys@gmail.com"> <p>Name: Sally Student</p></a> 
+     <a href="tel:6175555555"> <p>617-555-5555</p> </a>
+</section>
+</main>
+  );
+};
+
+// Use App Component:
+// insert the App's element tree into the #application-root
+ReactDOM.render(
+  <App />,
+  document.querySelector('#application-root')
+);
+    </script>
+    
+</body>
+</html>
